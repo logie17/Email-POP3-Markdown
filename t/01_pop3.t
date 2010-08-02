@@ -43,7 +43,7 @@ is $password, 'bar';
 is $hostname, 'baz.com';
 
 ok $email_markdown_obj->emails->[0];
-is $email_markdown_obj->emails->[0]->mark_down, "<p>Lorem Ipsum</p>\n";
+is $email_markdown_obj->emails->[0]->html, "<p>Lorem Ipsum</p>\n";
 
 
 
